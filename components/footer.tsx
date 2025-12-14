@@ -59,7 +59,7 @@ export default function Footer() {
 
 
             </motion.div>
-            <div className="flex flex-col md:flex-row justify-between md:items-center gap-4 mt-5 "><p className="text-primary text-sm hover:underline">© 2025 Farrukh Hafeez. All rights reserved.</p></div>
+            <div className="flex flex-col md:flex-row justify-between md:items-center gap-4 mt-5 "><p className="text-primary text-sm hover:underline">© 2026 Farrukh Hafeez. All rights reserved.</p></div>
 
         </section>
     )
