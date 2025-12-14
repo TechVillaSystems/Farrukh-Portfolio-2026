@@ -146,7 +146,7 @@ const AboutMe = () => {
           {/* VIDEO PLAYER */}
           <div
             id="video-section"
-            className="relative w-full rounded-xl overflow-hidden shadow-lg border border-gray-300 mt-2"
+            className="relative w-full rounded-xl overflow-hidden shadow-lg border border-gray-300 mt-6"
             ref={containerRef}
           >
             <video
@@ -169,33 +169,32 @@ const AboutMe = () => {
             <strong className="text-[#0084b2] font-semibold hover-underline-black">
               Full-Stack Developer
             </strong>{" "}
-            building{" "}
+            specializing in building{" "}
             <strong className="text-[#0084b2] font-semibold hover-underline-black">
               responsive websites
             </strong>,{" "}
             <strong className="text-[#0084b2] font-semibold hover-underline-black">
-              admin dashboards
+              secure admin dashboards
             </strong>, and{" "}
             <strong className="text-[#0084b2] font-semibold hover-underline-black">
               AI-powered SaaS applications
-            </strong>
-            . Skilled in{" "}
+            </strong>.
+            I work with modern technologies including{" "}
             <strong className="text-[#0084b2] font-semibold hover-underline-black">React</strong>,{" "}
             <strong className="text-[#0084b2] font-semibold hover-underline-black">AngularJS</strong>,{" "}
             <strong className="text-[#0084b2] font-semibold hover-underline-black">Next.js</strong>,{" "}
             <strong className="text-[#0084b2] font-semibold hover-underline-black">Node.js</strong>,{" "}
             <strong className="text-[#0084b2] font-semibold hover-underline-black">MongoDB</strong>,{" "}
-
-            <strong className="text-[#0084b2] font-semibold hover-underline-black">
-              Ruby on Rails
-            </strong>
-            . Delivering{" "}
+            <strong className="text-[#0084b2] font-semibold hover-underline-black">Ruby on Rails</strong>,{" "}
+            <strong className="text-[#0084b2] font-semibold hover-underline-black">PHP</strong>, and{" "}
+            <strong className="text-[#0084b2] font-semibold hover-underline-black">Python</strong>.
+            My focus is on developing{" "}
             <strong className="font-semibold text-[#1a1a1a] hover-underline-blue">
-              scalable solutions
+              intelligent, dependable solutions
             </strong>{" "}
-            that align with{" "}
+            that enable businesses to{" "}
             <strong className="font-semibold text-[#1a1a1a] hover-underline-blue">
-              business goals
+              grow and operate efficiently
             </strong>.
           </p>
 

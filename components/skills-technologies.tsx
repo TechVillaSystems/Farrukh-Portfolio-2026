@@ -15,7 +15,7 @@ const skillstechnologies = () => {
         { name: "Python", icon: "/icons/python.png" },
         { name: "HTML 5", icon: "/icons/HTML5.png" },
         { name: "CSS 3", icon: "/icons/css.png" },
-        { name: "Wordpress", icon: "/icons/wordpress.png" },
+        // { name: "Wordpress", icon: "/icons/wordpress.png" },
         { name: "PHP", icon: "/icons/php.png" },
         { name: "Angular JS", icon: "/icons/angular.png" },
         { name: "Next JS", icon: "/icons/Next.js.png" },
@@ -28,6 +28,8 @@ const skillstechnologies = () => {
         { name: "TensorFlow", icon: "/icons/tensorflow.png" },
         { name: "PyTorch", icon: "/icons/pytorch.png" },
         { name: "MLflow", icon: "/icons/mlflowicon.png" },
+        { name: "Langchain", icon: "/icons/langchain.png" },
+        { name: "n8n", icon: "/icons/n8n.png" },
     ];
 
     return (
@@ -119,7 +121,7 @@ const skillstechnologies = () => {
                                     alt={tool.name}
                                     src={tool.icon}
                                 />
-                                <p className="ml-2 text-base font-medium text-secondary md:ml-3">
+                                <p className="ml-2 text-base font-medium text-secondary">
                                     {tool.name}
                                 </p>
                             </motion.div>
