@@ -121,7 +121,7 @@ const skillstechnologies = () => {
                                     alt={tool.name}
                                     src={tool.icon}
                                 />
-                                <p className="ml-2 text-base font-medium text-secondary">
+                                <p className="ml-2 text-base font-medium text-secondary md:ml-1">
                                     {tool.name}
                                 </p>
                             </motion.div>

@@ -171,7 +171,7 @@ const AboutMe = () => {
             </strong>{" "}
             specializing in building{" "}
             <strong className="text-[#0084b2] font-semibold hover-underline-black">
-              responsive websites
+               websites
             </strong>,{" "}
             <strong className="text-[#0084b2] font-semibold hover-underline-black">
               secure admin dashboards
