@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Farrukh Hafeez | Full-Stack Developer | SaaS, ERP & E-Commerce Solutions | AI-Powered Web Apps",
-  description: "Experienced Full-Stack Developer with 7+ years in building responsive websites, custom admin dashboards, and AI-powered SaaS applications. Skilled in React, AngularJS, Next.js, Node.js, MongoDB, Ruby on Rails, PHP & Python. Delivering scalable solutions that align with business goals",
+  title: "Farrukh Hafeez | Full-Stack Developer | AI, ML & SaaS Expert",
+  description: "Full-Stack Developer with 7+ years in SaaS & AI solutions. Proficient in JavaScript, RoR, and ML. View my portfolio for scalable, high-performance systems.",
 };
 
 export default function RootLayout({

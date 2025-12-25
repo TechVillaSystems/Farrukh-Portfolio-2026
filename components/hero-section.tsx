@@ -1,7 +1,7 @@
 import { skillsArray } from '@/utils/skills'
 import React from 'react'
 import Hover3DImage from './hover-3d-image'
-import { Github, Facebook, Instagram, Mail, Phone, Globe } from 'lucide-react'
+import { Github, Facebook, Instagram, Mail, Phone, Globe, Linkedin, LinkedinIcon } from 'lucide-react'
 import Link from 'next/link'
 
 const HeroSection = () => {
@@ -42,7 +42,7 @@ const HeroSection = () => {
 
                     <div className="flex gap-3 justify-center  mb-8  sm:justify-start">
                         <a
-                            href="https://github.com/FarrukhHafeezFH"
+                            href="https://github.com/FarrukhHafeez-Dev"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group"
@@ -55,7 +55,7 @@ const HeroSection = () => {
 
 
                         <a
-                            href="https://www.facebook.com/FarrukhHafeezFH/"
+                            href="https://www.facebook.com/FarrukhHafeezDev/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group"
@@ -67,7 +67,7 @@ const HeroSection = () => {
                         </a>
 
                         <a
-                            href="https://www.instagram.com/farrukhhafeezfh/"
+                            href="https://www.instagram.com/farrukhhafeezdev/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group"
@@ -78,8 +78,20 @@ const HeroSection = () => {
                             />
                         </a>
 
-                        <a href="mailto:Farrukhhafeez48@gmail.com" className="group">
+                        <a href="mailto:farrukhhafeezdev@gmail.com" className="group">
                             <Mail
+                                size={24}
+                                className="text-primaryColor transition-all duration-300 group-hover:scale-125 group-hover:stroke-[#1a1a1a]"
+                            />
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/farrukhhafeezdev/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group"
+
+                        >
+                            <LinkedinIcon
                                 size={24}
                                 className="text-primaryColor transition-all duration-300 group-hover:scale-125 group-hover:stroke-[#1a1a1a]"
                             />

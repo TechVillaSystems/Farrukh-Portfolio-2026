@@ -1,7 +1,7 @@
 "use client";
 import { sendEmail } from "@/actions";
 import { motion } from "framer-motion";
-import { Calendar, Facebook, Github, Globe, Instagram, Mail, Phone, SendIcon } from "lucide-react";
+import { Calendar, Facebook, Github, Globe, Instagram, LinkedinIcon, Mail, Phone, SendIcon } from "lucide-react";
 import React, { useEffect, useRef } from "react";
 import { useActionState } from "react";
 import toast from "react-hot-toast";
@@ -59,10 +59,10 @@ export default function ContactUs() {
               <div>
                 <p className="font-medium text-foreground">Email</p>
                 <a
-                  href="mailto:farrukhhafeez48@gmail.com"
+                  href="mailto:farrukhhafeezdev@gmail.com"
                   className="text-primary hover:underline"
                 >
-                  Farrukhhafeez48@gmail.com
+                  farrukhhafeezdev@gmail.com
                 </a>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function ContactUs() {
             {/* Social Icons */}
             <div className="flex gap-3 mt-8">
               <a
-                href="https://github.com/FarrukhHafeezFH"
+                href="https://github.com/FarrukhHafeez-Dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
@@ -113,7 +113,7 @@ export default function ContactUs() {
               </a>
 
               <a
-                href="https://www.facebook.com/FarrukhHafeezFH/"
+                href="https://www.facebook.com/FarrukhHafeezDev/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
@@ -125,7 +125,7 @@ export default function ContactUs() {
               </a>
 
               <a
-                href="https://www.instagram.com/farrukhhafeezfh/"
+                href="https://www.instagram.com/farrukhhafeezdev/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
@@ -136,13 +136,24 @@ export default function ContactUs() {
                 />
               </a>
 
-              <a href="mailto:Farrukhhafeez48@gmail.com" className="group">
+              <a href="mailto:farrukhhafeezdev@gmail.com" className="group">
                 <Mail
                   size={24}
                   className="text-primaryColor transition-all duration-300 group-hover:scale-125 group-hover:stroke-[#1a1a1a]"
                 />
               </a>
+              <a
+                href="https://www.linkedin.com/in/farrukhhafeezdev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group"
 
+              >
+                <LinkedinIcon
+                  size={24}
+                  className="text-primaryColor transition-all duration-300 group-hover:scale-125 group-hover:stroke-[#1a1a1a]"
+                />
+              </a>
               <a
                 href="https://wa.me/923353574786"
                 target="_blank"
