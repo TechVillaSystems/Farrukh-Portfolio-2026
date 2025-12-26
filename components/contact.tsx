@@ -111,6 +111,12 @@ export default function ContactUs() {
                   className="text-primaryColor transition-all duration-300 group-hover:scale-125 group-hover:stroke-[#1a1a1a]"
                 />
               </a>
+              <a href="mailto:farrukhhafeezdev@gmail.com" className="group">
+                <Mail
+                  size={24}
+                  className="text-primaryColor transition-all duration-300 group-hover:scale-125 group-hover:stroke-[#1a1a1a]"
+                />
+              </a>
 
               <a
                 href="https://www.facebook.com/FarrukhHafeezDev/"
@@ -136,12 +142,7 @@ export default function ContactUs() {
                 />
               </a>
 
-              <a href="mailto:farrukhhafeezdev@gmail.com" className="group">
-                <Mail
-                  size={24}
-                  className="text-primaryColor transition-all duration-300 group-hover:scale-125 group-hover:stroke-[#1a1a1a]"
-                />
-              </a>
+           
               <a
                 href="https://www.linkedin.com/in/farrukhhafeezdev/"
                 target="_blank"
